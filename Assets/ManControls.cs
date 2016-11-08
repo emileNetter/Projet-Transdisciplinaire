@@ -16,7 +16,7 @@ public class ManControls : MonoBehaviour {
 
         myTransform = this.transform;
         myAnimator = GetComponent<Animator>();
-       
+        Screen.lockCursor = true;
 
     }
 	
